@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-image: url(../images/beautiful-view-sunset-sea_23-2148019892.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.logo {
+  width: 30%;
+  height: 50px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  /* height: 100vh; */
+}
+
+.navigation {
+  display: flex;
+  background: rgba(255, 255, 255, 0.3);
+  height: 50px;
+  width: 100vw;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+.navigation ul , ol{
+  display: flex;
+}
+
+.navigation li {
+  margin-left: 20px;
+}
+
+
+.footer {
+  position: fixed;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(65, 61, 61);
+  bottom: 0;
+}

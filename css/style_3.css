@@ -1,0 +1,20 @@
+body {
+  background-image: none;
+  background-color: burlywood;
+}
+.article {
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  background: rgba(00, 00, 00, 0.7);
+  color: rgb(152, 154, 156);
+}
+
+.head-3 h3 , .head-4 h4{
+  font-size: 40px;
+  margin:20px 0;
+}
+
+.head-3 p , .head-4 p{
+  font-size: 30px;
+}

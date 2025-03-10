@@ -1,0 +1,106 @@
+.form {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-1 {
+  margin-bottom: 30px
+}
+
+.form-1 fieldset {
+  border: none;
+  font-size: 30px;
+  color: #fff;
+}
+
+.name {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.name label {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.name input {
+  height: 20px;
+}
+
+.email {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.email label {
+  margin: 0 20px;
+}
+
+.email input {
+  height: 20px;
+}
+
+.bootom {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.bootom button {
+  height: 30px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+.bootom button:hover {
+  height: 35px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(138, 41, 184);
+}
+
+.form-2 fieldset {
+  border: none;
+  color: #fff;
+}
+
+.form-2 fieldset legend {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.checkbox label{
+  margin:0 20px;
+  font-size: 20px;
+}
+
+.form-3 fieldset {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
+  color: #fff;
+}
+
+.form-3 legend {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.form-3 label {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.form-4 fieldset {
+  border: none;
+  color: #fff;
+}
+
+.form-4 label {
+  margin: 0 20px;
+  font-size: 20px;
+}

@@ -1,0 +1,25 @@
+body {
+  background-image: none;
+  background-color: dimgray;
+}
+
+img {
+  width: 500px;
+  border-radius: 50px;
+}
+
+.gallery {
+  padding: 20px 50px;
+}
+
+.gallery-1 , .gallery-2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.gallery-1 p , .gallery-2 p {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 30px;
+}
